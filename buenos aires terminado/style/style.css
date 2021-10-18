@@ -1,0 +1,115 @@
+body{
+
+}
+.contenedor-bari{
+    background-color: rgb(255, 255, 255);
+    background-size:cover; 
+    background-repeat:no-repeat ;
+    background-position:center ;
+    position: relative ;  
+    height: 100px;  
+     box-shadow:-1px 14px 84px 24px rgba(0, 255, 251, 0.404);
+    margin-bottom:30px;
+    
+ }
+ .tabla{
+     width:100%;
+ }
+ .texto-bari{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+     position: relative;
+     top:0px;
+     right:0px;
+     
+ }
+.texto-bari {
+    color:#ffffff;
+    /*sombreado de texto*/
+    font-size: 1.5em;
+    margin: 0;
+
+}
+header{
+background-color: rgb(0, 247, 255);
+color: white;
+padding: 2rem;
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+}
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration:none ; /*sacar subrayado a los enlaces del header*/
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li{
+    display: inline-block; /*poner en linea los enlaces de navegacion*/
+}
+.navigation ul li a{
+    display: inline-block;
+    padding: 0.5rem;
+    transition: all 0.4s linear;
+    border: radius 5px;;
+}
+.navigation ul li a:hover{
+    background: #10b3ff70;
+}
+main{
+padding-top: 10rem;
+}
+footer{
+    box-shadow:-2px 14px 84px 24px rgba(0, 255, 251, 0.404);
+    background:#00d0ff ;
+    padding: 2rem 0;
+    text-align:center ;
+    margin-top: 6rem;
+}
+/*historia*/
+.historia{
+    background-color:#00d0ff;
+    color: white;
+  margin: 0 auto ;
+  width: 95%;
+  text-align: center;
+  font-size: 30px;
+ }
+ /*gobierno*/
+.gobierno{
+    background-color:#00d0ff48;
+    color: rgb(0, 0, 0);
+  margin: 0 auto ;
+  width: 95%;
+  text-align: center;
+  font-size: 30px;
+}
+h2{
+
+    text-align: center; 
+     }
+    td{
+        text-align: center;
+     }
+    th{
+        text-align: center;
+        color: rgb(0, 0, 0);
+    
+     }
+    
+    table{
+        /*cambiar el lugar de la tabla*/
+     margin: 0 auto;   
+     }
+     th{
+        background: #ffffff;
+     }
+     td{
+         color: rgb(0, 0, 0);
+         background-color: rgba(0,129,228,1);
+     }
